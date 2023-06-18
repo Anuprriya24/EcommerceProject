@@ -1,19 +1,14 @@
 server:
-  port: 8081
+  port: 8083
 
 spring:
   application:
-    name:  product-catalog-service
+    name:  order-service
   datasource:
-    url: jdbc:mysql://localhost:3307/productcatalog
+    url: jdbc:mysql://localhost:3307/cartdatabase
     username: root
     password: root
     driver-class-name: com.mysql.cj.jdbc.Driver
-
-#eureka:
-#  client:
-#    service-url:
-#      defaultZone: http://localhost:8761/eureka
 
   jpa:
     hibernate:
